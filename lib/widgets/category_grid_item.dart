@@ -26,10 +26,12 @@ class CategoryGridItem extends StatelessWidget {
             category.color.withOpacity(0.9),
           ], begin: Alignment.topLeft, end: Alignment.bottomRight),
         ),
-        child: Text(category.title,
-            style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                  color: Theme.of(context).colorScheme.onBackground,
-                )),
+        child: Text(
+          category.title,
+          style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                color: Theme.of(context).colorScheme.onBackground,
+              ),
+        ),
       ),
     );
   }
