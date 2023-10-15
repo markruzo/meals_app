@@ -2,15 +2,6 @@
 
 A Simple Meals App
 
-## Getting Started
-
-Text:
-
-- [Link](link)
-- [Link](link)
-
-Text
-
 ## Screens
 
 <div>
